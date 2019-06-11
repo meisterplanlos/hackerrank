@@ -1,0 +1,6 @@
+cmake_minimum_required (VERSION 3.13)
+set(CMAKE_CXX_STANDARD 11)
+project (HackerRank)
+add_subdirectory(src/challenges/security-inverse-of-a-function)
+add_subdirectory(src/challenges/security-involution)
+add_subdirectory(src/challenges/security-tutorial-permutations)
