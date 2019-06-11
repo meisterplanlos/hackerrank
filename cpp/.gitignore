@@ -1,0 +1,15 @@
+# Ignore files without extension (binaries)
+*
+!*.*
+!*/
+
+# CMake/ninja Artifacts
+**/CMakeCache.txt
+**/CMakeFiles/*
+**/.ninja*
+**/build.ninja
+**/cmake_install.cmake
+**/rules.ninja
+
+# emacs backups
+**/*~
